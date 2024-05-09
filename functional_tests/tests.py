@@ -134,10 +134,8 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertIn('Buy milk',page_text)
         #两人人都很满意，然后去睡觉了
     
-        
-        
-        
-        self.fail('Finish the test!')
+        # 没问题也会强制中断,先注释掉
+        # self.fail('Finish the test!')
         #她的清单中显示了这两个待办事项
         
 # if __name__ == '__main__':
